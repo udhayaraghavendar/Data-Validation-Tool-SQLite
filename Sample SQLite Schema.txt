@@ -1,0 +1,12 @@
+CREATE TABLE customers (
+    customer_id INT PRIMARY KEY,
+    name TEXT
+);
+
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY,
+    customer_id INT,
+    order_date TEXT,
+    delivery_date TEXT,
+    amount REAL
+);

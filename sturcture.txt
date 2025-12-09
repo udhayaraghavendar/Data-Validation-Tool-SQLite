@@ -1,0 +1,11 @@
+data_quality_tool/
+│── config.py
+│── sql_queries.py
+│── validator.py
+│── run_validation.py
+│── sample_data.db
+│── logs/
+    └── validation_2025-12-08_17-30.log
+
+
+
