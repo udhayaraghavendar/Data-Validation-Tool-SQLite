@@ -114,6 +114,7 @@ CREATE TABLE orders (
 
 <img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/4aeda28d-a3f6-40c9-82d9-e7c5f1486fd6" />
 
+## Log File:
 <img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/3af602a8-5720-4424-94da-da2b931ea674" />
 
 ### Scenario 2 — Output When Issues Are Not Found
