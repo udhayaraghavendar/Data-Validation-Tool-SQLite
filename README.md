@@ -3,13 +3,13 @@
 
 ## 🚀 Features
 
--✔️ Validate data inside SQLite database
--✔️ Detect missing or null values
--✔️ Detect duplicate order IDs
--✔️ Identify timestamp mismatches (order_date > delivery_date)
--✔️ Validate foreign key relationships between customers and orders
--✔️ Auto-generated log files with detailed results
--✔️ Simple run_validation.py script to execute all checks
+- ✔️ Validate data inside SQLite database
+- ✔️ Detect missing or null values
+- ✔️ Detect duplicate order IDs
+- ✔️ Identify timestamp mismatches (order_date > delivery_date)
+- ✔️ Validate foreign key relationships between customers and orders
+- ✔️ Auto-generated log files with detailed results
+- ✔️ Simple run_validation.py script to execute all checks
 
 ## 📁 Project Structure
 
@@ -52,34 +52,28 @@ Finds rows where order_date is greater than delivery_date.
 
 Checks if an order links to a non-existent customer.
 
-🛠️ How It Works
+## 🛠️ How It Works
 
 The main validation logic is implemented in validator.py:
 
+### Key Features:
 
-Key Features:
+- Creates log directory automatically
+- Runs each SQL check and prints results
+- Logs every message to a timestamped log file
 
-Creates log directory automatically
+## ▶️ Running the Tool
 
-Runs each SQL check and prints results
+- Use the driver script run_validation.py:
 
-Logs every message to a timestamped log file
+#### Run:
+#### python run_validation.py
 
-▶️ Running the Tool
+### Output:
 
-Use the driver script run_validation.py:
-
-
-Run:
-python run_validation.py
-
-Output:
-
-Console output with pass/fail for each check
-
-A log file created inside logs/ such as:
-
-logs/validation_2025-12-08_17-30.log
+- Console output with pass/fail for each check
+- A log file created inside logs/ such as:
+- logs/validation_2025-12-08_17-30.log
 
 
 
